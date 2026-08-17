@@ -84,13 +84,18 @@ Trained models are saved to `models/`. A comparison table (precision, recall, F1
 
 ## Results
 
-Fill in after running `main.py` on your machine (numbers depend on the random split and hyperparameters used):
+## Results
 
-| Model               | Precision | Recall | F1  | ROC-AUC |
-|---------------------|-----------|--------|-----|---------|
-| Logistic Regression |           |        |     |         |
-| XGBoost              |           |        |     |         |
-| PyTorch MLP          |           |        |     |         |
+| Model               | Precision | Recall | F1     | ROC-AUC |
+|----------------------|-----------|--------|--------|---------|
+| Logistic Regression  | 0.0609    | 0.9184 | 0.1141 | 0.9722  |
+| XGBoost               | 0.1029    | 0.9082 | 0.1848 | 0.9797  |
+| PyTorch MLP           | 0.7788    | 0.8265 | 0.8020 | 0.9618  |
+
+## License
+
+MIT
+
 
 ## License
 
