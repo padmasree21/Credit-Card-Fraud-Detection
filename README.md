@@ -23,13 +23,13 @@ Columns: `Time`, `V1`...`V28` (PCA-anonymized features), `Amount`, `Class` (1 = 
 
 ```
 credit_card_repo/
-  data/                      place creditcard.csv here, not tracked in git
+  data/                      placed creditcard.csv here, not tracked in git
   models/                    trained model artifacts get saved here
   notebooks/                 optional exploratory notebooks
   src/
-    config.py                paths, constants, random seed
-    data_preprocessing.py    load, scale, split, handle imbalance
-    eda.py                   exploratory data analysis and plots
+    config.py:                paths, constants, random seed
+    data_preprocessing.py:    load, scale, split, handle imbalance
+    eda.py:                   exploratory data analysis and plots
     models.py                PyTorch MLP architecture
     train_logistic_regression.py
     train_xgboost.py
