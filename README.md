@@ -22,24 +22,22 @@ Columns: `Time`, `V1`...`V28` (PCA-anonymized features), `Amount`, `Class` (1 = 
 
 ## Project Structure
 
-\`\`\`
 credit_card_repo/
-  data/              # place creditcard.csv here (gitignored)
-  models/            # trained model artifacts saved here
-  notebooks/         # optional exploratory notebooks
-  src/
-    config.py
-    data_preprocessing.py
-    eda.py
-    models.py
-    train_logistic_regression.py
-    train_xgboost.py
-    train_mlp.py
-    evaluate.py
-  main.py            # runs the full pipeline: preprocess -> train all -> compare
-  requirements.txt
-  README.md
-\`\`\`
+├── data/
+├── models/
+├── notebooks/
+├── src/
+│   ├── config.py
+│   ├── data_preprocessing.py
+│   ├── eda.py
+│   ├── models.py
+│   ├── train_logistic_regression.py
+│   ├── train_xgboost.py
+│   ├── train_mlp.py
+│   └── evaluate.py
+├── main.py
+├── requirements.txt
+└── README.md
 
 ## Setup
 
