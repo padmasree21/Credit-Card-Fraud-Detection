@@ -19,10 +19,6 @@ data/creditcard.csv
 Columns: `Time`, `V1`...`V28` (PCA-anonymized features), `Amount`, `Class` (1 = fraud, 0 = legitimate).
 
 ## Project structure
-
-## Project Structure
-## Project Structure
-
 ​```
 credit_card_repo/
   data/              # place creditcard.csv here (not tracked in git)
