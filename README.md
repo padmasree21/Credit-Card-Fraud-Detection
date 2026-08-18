@@ -37,7 +37,7 @@ credit_card_repo/
 │   └── evaluate.py            # shared metrics/plotting utilities
 ├── main.py                    # end-to-end pipeline: preprocess -> train all -> compare
 ├── requirements.txt
-└── README.md THESE LOOKS AI REFRAME THESE
+└── README.md 
 
 ## Setup
 
