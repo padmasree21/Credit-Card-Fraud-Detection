@@ -23,21 +23,21 @@ Columns: `Time`, `V1`...`V28` (PCA-anonymized features), `Amount`, `Class` (1 = 
 ## Project Structure
 
 credit_card_repo/
-├── data/
-├── models/
-├── notebooks/
+├── data/                      # place creditcard.csv here (not tracked in git)
+├── models/                    # trained model artifacts get saved here
+├── notebooks/                 # optional exploratory notebooks
 ├── src/
-│   ├── config.py
-│   ├── data_preprocessing.py
-│   ├── eda.py
-│   ├── models.py
+│   ├── config.py              # paths, constants, random seed
+│   ├── data_preprocessing.py  # load, scale, split, handle imbalance
+│   ├── eda.py                 # exploratory data analysis + plots
+│   ├── models.py              # PyTorch MLP architecture
 │   ├── train_logistic_regression.py
 │   ├── train_xgboost.py
 │   ├── train_mlp.py
-│   └── evaluate.py
-├── main.py
+│   └── evaluate.py            # shared metrics/plotting utilities
+├── main.py                    # end-to-end pipeline: preprocess -> train all -> compare
 ├── requirements.txt
-└── README.md
+└── README.md THESE LOOKS AI REFRAME THESE
 
 ## Setup
 
