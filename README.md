@@ -19,24 +19,22 @@ data/creditcard.csv
 Columns: `Time`, `V1`...`V28` (PCA-anonymized features), `Amount`, `Class` (1 = fraud, 0 = legitimate).
 
 ## Project structure
-​```
-credit_card_repo/
-  data/              # place creditcard.csv here (not tracked in git)
-  models/            # trained model artifacts get saved here
-  notebooks/         # optional exploratory notebooks
-  src/
-    config.py              # paths, constants, random seed
-    data_preprocessing.py  # load, scale, split, handle imbalance
-    eda.py                 # exploratory data analysis + plots
-    models.py              # PyTorch MLP architecture
-    train_logistic_regression.py
-    train_xgboost.py
-    train_mlp.py
-    evaluate.py            # shared metrics/plotting utilities
-  main.py            # end-to-end pipeline: preprocess -> train all -> compare
-  requirements.txt
-  README.md
-​```
+​credit_card_repo/
+data/ place creditcard.csv here, not tracked in git
+models/ trained model artifacts get saved here
+notebooks/ optional exploratory notebooks
+src/
+config.py paths, constants, random seed
+data_preprocessing.py load, scale, split, handle imbalance
+eda.py exploratory data analysis and plots
+models.py PyTorch MLP architecture
+train_logistic_regression.py
+train_xgboost.py
+train_mlp.py
+evaluate.py shared metrics and plotting utilities
+main.py end-to-end pipeline: preprocess, train all, compare
+requirements.txt
+README.md
 
 ## Setup
 
